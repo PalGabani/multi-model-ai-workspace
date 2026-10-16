@@ -44,6 +44,7 @@ jobs:
           --health-timeout 3s
           --health-retries 12
     env:
+      PYTHONPATH: backend
       DATABASE_URL: postgresql+asyncpg://multimodel:test-password@localhost:5432/multimodel
       REDIS_URL: redis://localhost:6379/0
       JWT_SECRET: ci-only-secret-with-more-than-thirty-two-characters
