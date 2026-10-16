@@ -1,0 +1,75 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.local.example
+
+# JavaScript dependencies and package-manager files
+/node_modules/
+/.pnp/
+.pnp.*
+/.yarn/*
+!/.yarn/patches/
+!/.yarn/plugins/
+!/.yarn/releases/
+!/.yarn/versions/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build output
+/.next/
+/out/
+/build/
+/dist/
+/.vercel/
+
+# TypeScript build metadata
+*.tsbuildinfo
+/next-env.d.ts
+
+# Python virtual environments, caches, and test output
+/backend/.venv/
+/backend/venv/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.coverage
+.coverage.*
+/htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Local databases and generated data
+*.sqlite
+*.sqlite3
+*.db
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+/.idea/
+/.fleet/
+.vscode/
+
+# Auto-generated agent files
+AGENTS.md
+
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
